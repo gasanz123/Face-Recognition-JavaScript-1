@@ -36,7 +36,7 @@ async function start() {
 }
 
 function loadLabeledImages() {
-  const labels = ['Sheldon Cooper','Penny Hofstadter','Howard Wolowitz','Raj Koothrappali','Amy Farrah Fowler','Bernadette Rostenkowski','Leonard Hoffstadter']
+  const labels = ['Sheldon Cooper','Penny Hofstadter','Howard Wolowitz','Raj Koothrappali','Amy Farrah Fowler','Bernadette Rostenkowski']
   return Promise.all(
     labels.map(async label => {
       const descriptions = []
